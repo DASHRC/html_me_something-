@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* html, body {
+	height: 100%;
+	width: 100%;
+} */
+
+header.site_title{
+      color: #fff;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 120px;
+  font-weight: 1000;
+  line-height: 46px;
+  margin: 20px 20px 20px 20px;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(55, 75, 105, 0.65);
+  width: 100%;
+}
+
+body {
+	align-items: center;
+    background-color: #FFF;
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+	flex-direction: column;
+	justify-content: center;
+	/* overflow: hidden; */
+}
+
+
+div.container {
+	/* overflow-x: scroll */
+	align-items: left;
+	align-self: center;
+	background: url('http://kickstart.bikeexif.com/wp-content/uploads/2017/07/kreidler-125-cafe-racer.jpg') center center;
+	border-radius: 60%;
+	display: flex;
+	flex-direction: column;
+	min-height: 1000px;
+	justify-content: center;
+	width: 1000px;
+}
+
+/* h1 {
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 62px;
+  font-weight: 900;
+  line-height: 46px;
+  margin: 0 0 60px 0;
+  text-align: right;
+  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
+  width: 100%;
+} */
+
+a.boton {
+	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(55, 75, 105, 0.65) 67%); 
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 18px;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 1s ease;
+	transition: box-shadow 1s ease;
+}
+
