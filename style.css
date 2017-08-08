@@ -8,19 +8,43 @@
 	width: 100%;
 } */
 
-header.site_title{
+header.shake{
       color: #fff;
   font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 120px;
+  font-size: 130px;
   font-weight: 1000;
   line-height: 46px;
-  margin: 20px 20px 20px 20px;
+  margin: 60px 20px 20px 20px;
   text-align: center;
   text-shadow: 0px 2px 4px rgba(55, 75, 105, 0.65);
   width: 100%;
 }
+/* 
+header.site_title{
+      color: #fff;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 130px;
+  font-weight: 1000;
+  line-height: 46px;
+  margin: 60px 20px 20px 20px;
+  text-align: center;
+  text-shadow: 0px 2px 4px rgba(55, 75, 105, 0.65);
+  width: 100%;
+} */
+
+main{
+  padding-left: 187px;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 20px;
+  text-align: center;
+  background: white
+  
+ 
+}
 
 body {
+   background: url('http://www.graphis.com/media/uploads/cfe/entry/85a45a23-6627-47bb-8109-cf041ed4feed/Line%20Pattern_2.jpg') left center;  
+  border-radius: 60%; 
 	align-items: center;
   background-color: #FFF;
   display: flex;
@@ -33,14 +57,15 @@ body {
 	/* overflow: hidden; */
 }
 
-
+  
+  
 div.container {
-	align-items: left;
+	align-items: bottom;
 	align-self: left;
-	/* background: url('http://kickstart.bikeexif.com/wp-content/uploads/2017/07/kreidler-125-cafe-racer.jpg') left center; 
+	 /* background: url('https://image.freepik.com/free-vector/skull-icons-collection_1010-438.jpg') left center;  
 	border-radius: 60%; */
 	/* display: flex; */
-	   flex-direction: column;  
+	   /* flex-direction: left;   */
 	 /* min-height: 500px;  */
 	/* justify-content: center;  */
   /* width: 1000px; */
@@ -54,7 +79,7 @@ a.boton {
 	border-radius: 2px;
 	box-shadow: 0px 2px 4px rgba(34,62,66,.25);
   color: #fff;
-  font-size: 30px;
+  font-size: 15px;
   letter-spacing: 18px;
   padding: 16px 32px;
   text-decoration: none;
@@ -74,14 +99,15 @@ ul a:hover {
 
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
+    margin: 1px;
+    border: none
+    /* float: left; */
     width: 1000px;
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border:none
+    
 }
 
 div.gallery img {
@@ -90,6 +116,21 @@ div.gallery img {
 }
 
 div.desc {
-    padding: 20px;
-    text-align: center;
+    padding-left: 187px;
+    text-align: left;
+    font-family: 'Zilla Slab Highlight', cursive;
+     font-weight: 1000;
+  line-height: 46px;
+    font-size: 28px;
+    background: white
+    
+}
+
+div.hover {
+    background-color: yellow;
+}
+
+footer{
+  text-align: center;
+
 }
