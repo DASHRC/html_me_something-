@@ -3,11 +3,6 @@
 	padding: 0;
 }
 
-/* html, body {
-	height: 100%;
-	width: 100%;
-} */
-
 header.shake{
       color: #fff;
   font-family: 'Zilla Slab Highlight', cursive;
@@ -19,18 +14,6 @@ header.shake{
   text-shadow: 0px 2px 4px rgba(55, 75, 105, 0.65);
   width: 100%;
 }
-/* 
-header.site_title{
-      color: #fff;
-  font-family: 'Zilla Slab Highlight', cursive;
-  font-size: 130px;
-  font-weight: 1000;
-  line-height: 46px;
-  margin: 60px 20px 20px 20px;
-  text-align: center;
-  text-shadow: 0px 2px 4px rgba(55, 75, 105, 0.65);
-  width: 100%;
-} */
 
 main{
   padding-left: 187px;
@@ -38,8 +21,15 @@ main{
   font-size: 20px;
   text-align: center;
   background: white
-  
- 
+}
+
+div.shake-crazy {  
+  /* padding-left: 87px; */
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 20px;
+  text-align: right;
+  background: white
+
 }
 
 body {
@@ -54,11 +44,8 @@ body {
   line-height: 70px;
 	flex-direction: column;
 	justify-content: center;
-	/* overflow: hidden; */
 }
-
-  
-  
+ 
 div.container {
 	align-items: bottom;
 	align-self: left;
@@ -68,11 +55,8 @@ div.container {
 	   /* flex-direction: left;   */
 	 /* min-height: 500px;  */
 	/* justify-content: center;  */
-  /* width: 1000px; */
-  
-  
+  /* width: 1000px; */ 
 }
-
 
 a.boton {
 	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(55, 75, 105, 0.65) 67%); 
@@ -97,12 +81,11 @@ ul a:hover {
     background-color:black;
 }
 
-
 div.gallery {
     margin: 1px;
     border: none
     /* float: left; */
-    width: 1000px;
+    
 }
 
 div.gallery:hover {
@@ -119,18 +102,16 @@ div.desc {
     padding-left: 187px;
     text-align: left;
     font-family: 'Zilla Slab Highlight', cursive;
-     font-weight: 1000;
-  line-height: 46px;
+    font-weight: 1000;
+    line-height: 46px;
     font-size: 28px;
     background: white
     
 }
 
-div.hover {
-    background-color: yellow;
-}
-
 footer{
-  text-align: center;
-
+  font-size: 20px
+  
+   
 }
+
