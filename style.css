@@ -22,9 +22,12 @@ header.site_title{
 
 body {
 	align-items: center;
-    background-color: #FFF;
-	display: flex;
-	font-family: 'Raleway', sans-serif;
+  background-color: #FFF;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 990;
+  line-height: 70px;
 	flex-direction: column;
 	justify-content: center;
 	/* overflow: hidden; */
@@ -32,29 +35,19 @@ body {
 
 
 div.container {
-	/* overflow-x: scroll */
 	align-items: left;
-	align-self: center;
-	background: url('http://kickstart.bikeexif.com/wp-content/uploads/2017/07/kreidler-125-cafe-racer.jpg') center center;
-	border-radius: 60%;
-	display: flex;
-	flex-direction: column;
-	min-height: 1000px;
-	justify-content: center;
-	width: 1000px;
+	align-self: left;
+	/* background: url('http://kickstart.bikeexif.com/wp-content/uploads/2017/07/kreidler-125-cafe-racer.jpg') left center; 
+	border-radius: 60%; */
+	/* display: flex; */
+	   flex-direction: column;  
+	 /* min-height: 500px;  */
+	/* justify-content: center;  */
+  /* width: 1000px; */
+  
+  
 }
 
-/* h1 {
-  color: #fff;
-  font-family: 'Playfair Display', serif;
-  font-size: 62px;
-  font-weight: 900;
-  line-height: 46px;
-  margin: 0 0 60px 0;
-  text-align: right;
-  text-shadow: 0px 2px 4px rgba(34,62,66,.75);
-  width: 100%;
-} */
 
 a.boton {
 	background: linear-gradient(45deg, rgba(255,184,115,0.65) 0%,rgba(255,124,189,0.65) 50%,rgba(55, 75, 105, 0.65) 67%); 
@@ -67,6 +60,36 @@ a.boton {
   text-decoration: none;
   text-transform: uppercase;
   -webkit-transition: box-shadow 1s ease;
-	transition: box-shadow 1s ease;
+  transition: box-shadow 1s ease;
 }
 
+ul{ list-style-type: none; 
+    position: fixed; 
+    overflow: auto;
+}
+
+ul a:hover {
+    background-color:black;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 1000px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 20px;
+    text-align: center;
+}
